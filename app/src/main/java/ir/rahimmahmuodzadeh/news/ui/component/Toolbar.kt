@@ -18,7 +18,7 @@ fun Toolbar() {
         modifier = Modifier
             .fillMaxWidth()
             .height(60.dp)
-            .background(MaterialTheme.colors.background)
+            .background(MaterialTheme.colors.onBackground)
     ) {
         val (profileImage, newImage, saveImage) = createRefs()
         Image(
