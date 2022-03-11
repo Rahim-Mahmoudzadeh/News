@@ -89,4 +89,6 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version")
     //kotlin and coroutines
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine"
+    implementation "androidx.compose.runtime:runtime-livedata:$livedata"
+
 }

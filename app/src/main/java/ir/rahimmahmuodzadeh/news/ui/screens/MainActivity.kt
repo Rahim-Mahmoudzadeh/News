@@ -16,6 +16,7 @@ import androidx.core.content.ContextCompat
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import ir.rahimmahmuodzadeh.news.R
+import ir.rahimmahmuodzadeh.news.ui.nav.Navigation
 import ir.rahimmahmuodzadeh.news.ui.screens.home.HomeScreen
 import ir.rahimmahmuodzadeh.news.ui.theme.NewsTheme
 @ExperimentalPagerApi
@@ -35,7 +36,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    HomeScreen()
+                    Navigation()
                 }
             }
         }
@@ -52,6 +53,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     NewsTheme {
-        HomeScreen()
+
     }
 }
